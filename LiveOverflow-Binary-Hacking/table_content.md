@@ -30,3 +30,16 @@ e.g. `cat README.md | hexdump`
 2. 一些指令`Moves`, `Jumps`, `Branches` 以及 `Calls`
 3. `Stack` with `PUSH/POP`
 4. [请读至少3遍, 亦可赛艇](https://sockpuppet.org/issue-79-file-0xb-foxport-hht-hacking.txt.html)
+5. [Memory Hierarchy: Of Registers, Cache & Memory](https://software.intel.com/en-us/blogs/2015/06/11/advanced-computer-concepts-for-the-not-so-common-chef-memory-hierarchy-of-registers)
+6. [Software Techniques for Shared-Cache Multi-Core Systems](https://software.intel.com/en-us/articles/software-techniques-for-shared-cache-multi-core-systems)
+
+
+#### 0x05--Reversing and Cracking first simple Program
+
+1. `install gdb  // brew install gdb or; yum install gdb`
+    * gdb binary_name
+    * set disassembly-flavor intel
+    * break // e.g. break *main
+    * run
+    * info registers
+
