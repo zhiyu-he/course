@@ -27,6 +27,9 @@ e.g. `cat README.md | hexdump`
 #### 0x04--How a CPU works and Introduction to Assembler
 
 1. `CPU`以及`Registers`的概念
+    * `program counter (PC)`, 被称为`instruction pointer (IP)`
+    * `SI`, 数据索引, 从string中读取数据; `esi` may be 常量?
+    * `DI`, 
 2. 一些指令`Moves`, `Jumps`, `Branches` 以及 `Calls`
 3. `Stack` with `PUSH/POP`
 4. [请读至少3遍, 亦可赛艇](https://sockpuppet.org/issue-79-file-0xb-foxport-hht-hacking.txt.html)
@@ -42,4 +45,15 @@ e.g. `cat README.md | hexdump`
     * break // e.g. break *main
     * run
     * info registers
+2. [X86架构,可以读读,重要的是write more and more](https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture)
+
+
+#### 0x06--Simple Tools and Techniques to analyse a Program
+
+1. tools `string`, `objdump`, `stract, ltrace`, `Hopper DIsassembler`, `radare2`, `hexdump`
+    * `hexdump`, e.g. hexdump -C binary_name
+    * `strings`, e.g. strings binary_name, 用于输出二进制中可打印的字符.
+    * `objdump`, e.g. objdump -x binary_name
+    * `strace/lstrace`, 所有调用/lib调用
+    * `radare2`, [clone && install ./sys/install.sh](https://github.com/radare/radare2)
 
