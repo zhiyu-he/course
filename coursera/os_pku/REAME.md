@@ -1,5 +1,8 @@
 # 操作系统原理(Operating Systems)
 
+> https://www.coursera.org/learn/os-pku/home/welcome
+
+
 # 课程目录
 
 - [X] 操作系统概述
