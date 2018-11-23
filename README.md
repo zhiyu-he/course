@@ -5,4 +5,4 @@
 
 #### 进行中的课程
 
-1. [`操作系统原理`|`coursera`|`13/13`|`待定`](https://github.com/zhiyu-he/course/blob/master/coursera/os_pku/REAME.md)
+1. [`操作系统原理`|`coursera`|`13/13`|`教材笔记`](https://github.com/zhiyu-he/course/blob/master/coursera/os_pku/REAME.md)
