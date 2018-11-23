@@ -1,6 +1,8 @@
 # 操作系统原理(Operating Systems)
 
-> https://www.coursera.org/learn/os-pku/home/welcome
+> 视频地址: https://www.coursera.org/learn/os-pku/home/welcome
+> 
+> 教材地址: https://book.douban.com/subject/27096665/
 
 
 # 课程目录
