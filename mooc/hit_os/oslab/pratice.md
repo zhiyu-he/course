@@ -1,5 +1,7 @@
 ### ChangeLog
-* 2010-05-04
+* 2019-06-03
+   * 补充系统调用实验中的/user/include代码修改
+* 2019-05-04
 	* 补充进程运行轨迹与统计的相关源文件
 * 2019-04-30
 	* 完成进程运行轨迹与统计实验
@@ -20,6 +22,7 @@
 		* linux/include/linux/sys.h, 修改sys_call_table
 		* linux/kernal/system_call.s 修改nr_system_calls
 		* linux/kernal/who.c         syscall的实现
+		* 系统/user/include下的文件也需要修改, 用于编译期
 	* 相关的知识点
 		* 如何做将用户态的字符串,保存到内核态?
 		* 用户态和内核态数据的双向传递,如何实现?
