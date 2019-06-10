@@ -40,6 +40,8 @@
     	* include/linux/sched.h
     * 相关的知识点
     	* 进程的结构、进程的状态、进程的调度
+    	* [TASK_KILLABLE状态的引入](https://lwn.net/Articles/288056/)
+    	* [Uninterruptible Sleep的含义](https://eklitzke.org/uninterruptible-sleep)
     * 相关数据文件
     	* process.log
     		* 对于process.log中的关键进程描述如下`pid-cpu时间-io时间, 单位s`
